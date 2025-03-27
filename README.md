@@ -16,6 +16,9 @@ Parasail Node Bot is an automated tool for managing and interacting with Parasai
 - An Ethereum wallet with private key
 - Internet connection
 
+## First Create Account (if you don't have account yet) 
+https://www.parasail.network/season?refer=MHhGQTIzM2NDMGRjY2Y0ODkyRTY4OEZmNDExODg2NjI0NDE5NjU2NUU4
+
 ## Installation
 
 1. Clone the repository:
