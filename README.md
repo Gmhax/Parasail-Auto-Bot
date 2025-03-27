@@ -30,10 +30,13 @@ npm install
 ```
 
 3. Create a `config.json` file in the project root with the following structure:
-```json
+- FORMAT: 
 {
   "privateKey": "YOUR_ETHEREUM_PRIVATE_KEY"
 }
+
+```json
+nano config.json
 ```
 
 ⚠️ **IMPORTANT**: Never commit your `config.json` to version control. Add it to `.gitignore`.
