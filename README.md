@@ -43,7 +43,9 @@ nano config.json
 ```
 
 ⚠️ **IMPORTANT**: Never commit your `config.json` to version control. Add it to `.gitignore`.
-
+```bash
+echo "config.json" >> .gitignore
+```
 
 ## Create Session
 ```bash
