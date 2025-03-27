@@ -38,11 +38,19 @@ npm install
 
 ⚠️ **IMPORTANT**: Never commit your `config.json` to version control. Add it to `.gitignore`.
 
+## Create Session
+```bash
+screen -S Parasail
+```
+
 ## Usage
 
 ```bash
 npm start
 ```
+## Detach Session
+- Press: CTRL A+D
+
 
 ## Dependencies
 - blessed: Terminal UI library
