@@ -35,11 +35,23 @@ npm install
   "privateKey": "YOUR_ETHEREUM_PRIVATE_KEY"
 }
 
-```json
+```bash
 nano config.json
 ```
 
 ⚠️ **IMPORTANT**: Never commit your `config.json` to version control. Add it to `.gitignore`.
+
+```bash
+echo "config.json" >> .gitignore
+git rm --cached config.json
+git commit -m "Added config.json to .gitignore"
+git push origin main
+```
+
+## Status
+```bash
+git status
+```
 
 ## Create Session
 ```bash
